@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jira Cards</title>
+        <link rel="stylesheet" href="/stylesheets/landing.css">
+    </head>
+    <body>
+        <% issueMap.forEach(function(story){ %>
+            <% story.forEach(function(issue, index){ %>
+            <div class="container <%= issue.typeName %>">
+                <div class="issueTitle">
+                    <h2> <%= issue.key %> </h2>
+                    <span class="right<%= issue.typeName %>"><%= issue.typeName %></span>
+                </div>
+                <h4><%= issue.summary %></h4>
+                <% if(issue.typeName === 'Sub-task'){ %>
+                    <p><%= story[0].key %> <%= story[0].summary %></p>
+                <% }; %>
+            </div>
+            <% }); %>
+        <% }); %>
+    </body>
+</html>

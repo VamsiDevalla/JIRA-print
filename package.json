@@ -1,0 +1,15 @@
+{
+  "name": "jira_print",
+  "version": "1.0.0",
+  "description": "Will print the jira tasks ",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index"
+  },
+  "author": "Vamsi Devalla",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
+  }
+}

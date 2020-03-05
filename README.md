@@ -1,5 +1,5 @@
 # About
-This project is used to print jira cards. you may need to update styles and colors according to your needs in landing.css file located in ```JIRAPRINT > resources > stylesheets```
+This project can used to print jira cards with custom styling. you may need to update styles and colors according to your needs in landing.css file located in ```JIRAPRINT > resources > stylesheets```
 
 # prerequisites:
 - ## Node.js should be installed to run this projects

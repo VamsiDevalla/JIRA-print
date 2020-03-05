@@ -1,5 +1,5 @@
 # About
-This project is used to print jira cards. you may need to update styles and colors according to your needs in landing.css file located in JIRAPRINT > resources > stylesheets
+This project is used to print jira cards. you may need to update styles and colors according to your needs in landing.css file located in ```JIRAPRINT > resources > stylesheets```
 
 # prerequisites:
 - ## Node.js should be installed to run this projects
@@ -10,7 +10,7 @@ This project is used to print jira cards. you may need to update styles and colo
 - Step-2: Now open any terminal and navigate project directory ```JIRAPRINT``` and run the command ```npm install```
 
 ## Every time
-_ I have attached a image at the bottom of this page that can help you to figure out some of steps below. _
+**_I have attached a image at the bottom of this page that can help you to figure out some of steps below._**
 - Step-1: Open Jira and go to active sprint
 - Step-2: Now open developer tools of the browser and navigate to network tab
   > For Chrome on Mac, ```COMMAND + OPTION + I```, will on open network tab in developer tools

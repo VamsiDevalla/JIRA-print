@@ -42,5 +42,5 @@ issues.forEach(issue => {
 
 app.use(router)
 app.listen(4000, function(){
-    console.log("Enjoy your JIRA cards");
+    console.log("Enjoy your JIRA cards running on local host 4000");
 });

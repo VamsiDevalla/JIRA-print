@@ -12,7 +12,7 @@ This project is used to print jira cards. you may need to update styles and colo
 ## Every time
 - Step-1: Open Jira and go to active sprint
 - Step-2: Now open developer tools of the browser and navigate to network tab
-        > For Chrome on Mac, ```COMMAND + OPTION + I```, will on open network tab in developer tools
+  > For Chrome on Mac, ```COMMAND + OPTION + I```, will on open network tab in developer tools
 - Step-3: Keeping the dev tools opened press reload on the browser window
 - Step-4: Find and click on the network call starting with ```allData.json?rapidViewId=```
 - Step-5: Go to response section of the call and copy all the data ```COMMAND + A > COMMAND + C```

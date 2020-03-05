@@ -1,14 +1,15 @@
-# JIRA-print
+# About
+This project is used to print jira cards. you may need to update styles and colors according to your needs in landing.css file located in JIRAPRINT > resources > stylesheets
 
 # prerequisites:
-// Node.js should be installed to run this projects
+> Node.js should be installed to run this projects
 
 # Steps to print your cards
-# First Time 
+## First Time 
 Step-1: Download or clone the project
 Step-2: Now open any terminal and navigate project directory JIRAPRINT and run the command 'npm install'
 
-# Every time
+## Every time
 Step-1: Open Jira and go to active sprint
 Step-2: Now open developer tools of the browser and navigate to network tab
         * For Chrome on Mac, COMMAND + OPTION + I, will on open network tab in developer tools
